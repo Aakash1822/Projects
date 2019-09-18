@@ -1,6 +1,6 @@
 # Project Name
 
-#Leaf Disease Detection using Image Processing
+# Leaf Disease Detection using Image Processing
 
 # Collection of Datasets from online resources
 https://www.plant-image-analysis.org/dataset
