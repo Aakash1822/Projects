@@ -11,8 +11,6 @@ history = model.fit_generator(
     )
 acc = history.history['acc']
 val_acc = history.history['val_acc']
-loss = history.history['loss']
-val_loss = history.history['val_loss']
 epochs = range(1, len(acc) + 1)
 plt.plot(epochs, acc, 'b', label='Training accurarcy')
 plt.plot(epochs, val_acc, 'r', label='Validation accurarcy')
