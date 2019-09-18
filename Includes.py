@@ -17,3 +17,15 @@ from keras.preprocessing.image import img_to_array
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
+
+#epochs and size of NN is defined
+
+EPOCHS = 25
+INIT_LR = 1e-3
+BS = 32
+default_image_size = tuple((256, 256))
+image_size = 0
+directory_root = 'C:/Users/Baba/Leaf_disease_detection/PlantVillage'
+width = 256
+height = 256
+depth = 3
